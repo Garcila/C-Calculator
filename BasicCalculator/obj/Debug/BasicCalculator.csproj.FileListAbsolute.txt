@@ -1,0 +1,10 @@
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\bin\Debug\BasicCalculator.exe.config
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\bin\Debug\BasicCalculator.exe
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\bin\Debug\BasicCalculator.pdb
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.csprojResolveAssemblyReference.cache
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.Properties.Resources.resources
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.csproj.GenerateResource.Cache
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.csproj.CoreCompileInputs.cache
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.exe
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.pdb
+c:\users\german arcila\source\repos\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.Form1.resources
