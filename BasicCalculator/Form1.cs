@@ -233,6 +233,29 @@ namespace BasicCalculator
                         {
                             // get the operator type
                             var operatorType = GetOperationType(input[i]);
+
+                            // check if there is a right side number
+                            if (operation.RightSide.Length == 0)
+                            {
+                                // Check that the operator is not a minus (used to create negative number)
+                                if (operatorType != OperationType.Minus)
+                                    throw new InvalidOperationException($"Operator +,*,/ or more than one -, specified without a right side number");
+
+                                // If we got here, the operator type is a minus, and there is no right number currently, so add the minus to number
+                                operation.RightSide += input[i];
+                            }
+                            else
+                            {
+                                // Calculate prefious equation and set to the left side
+                                operation.LeftSide = CalculateOperation(operation);
+                                666
+
+                                // Set new operator
+                                operation.OperationType = operatorType;
+
+                                // Clear the previous right side
+                                operation.RightSide = string.Empty;
+                            }
                         }
                         else
                         {
