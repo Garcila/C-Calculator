@@ -248,7 +248,6 @@ namespace BasicCalculator
                             {
                                 // Calculate prefious equation and set to the left side
                                 operation.LeftSide = CalculateOperation(operation);
-                                666
 
                                 // Set new operator
                                 operation.OperationType = operatorType;
